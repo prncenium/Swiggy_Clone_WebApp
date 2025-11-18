@@ -1,0 +1,6 @@
+# This rule tells Netlify how to handle your API calls
+[[redirects]]
+  from = "/dapi/*"
+  to = "https://www.swiggy.com/:splat"
+  status = 200
+
